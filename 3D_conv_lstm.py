@@ -12,7 +12,7 @@ from resnet_blocks import identity_block, convolution_block
 from model_utils import *
 
 BATCH_SIZE = 1
-IMAGE_HEIGHT, IMAGE_WIDTH, IMAGE_CHANNELS = 160, 320, 3
+IMAGE_HEIGHT, IMAGE_WIDTH, IMAGE_CHANNELS = 120, 160, 3
 SEQ_LEN = 5
 INPUT_SHAPE = (SEQ_LEN, IMAGE_HEIGHT, IMAGE_WIDTH, IMAGE_CHANNELS)
 
